@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "飾記",
+      "hasCanvas": false,
+      "bodyTextLen": 629,
+      "bodyTextHash": "3e958aaabac398a8debd94113c4559976a8545987c81fc523629a799f76c8f52",
+      "bodyTextPrefix": "飾記 ATELIER LEDGER 總覽 商品 進貨 銷貨 庫存 報表 髮飾／飾品進銷存 示範資料可直接改 今日店鋪 總覽 低庫",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "飾記",
+      "hasCanvas": false,
+      "bodyTextLen": 600,
+      "bodyTextHash": "a9040ee1dd6c39622a36dccf7c196bcb8cd76d32d172f8839b6d3154b7337e59",
+      "bodyTextPrefix": "飾記 進銷存 今日店鋪 總覽 低庫存補貨 收銀結帳 今日銷售 $287 1 筆 本月營收 $8,832 10 筆訂單 本月毛利 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (702 -> 629 chars, hash mismatch)",
+    "mobile: body text changed (673 -> 600 chars, hash mismatch)"
+  ]
+}
